@@ -1,0 +1,103 @@
+body {
+    color: #1b5e20;
+    text-align: center;
+}
+
+#football {
+    border-radius: 50%;
+}
+
+#Auba {
+    width: 408.16px;
+    height: 230.4px;
+    transition: 0.2s;
+}
+
+#Saka {
+    height: 204.5;
+    width: 307.5;
+    transition: 0.2s;
+}
+
+#Saka:hover {
+    transform: scale(1.1);
+}
+
+#Auba:hover {
+    transform: scale(1.1);
+}
+
+#Home {
+    background: linear-gradient(#00c853 50%, #ffffff 100%);
+}
+
+#About {
+    height: 250px;
+}
+
+#Player {
+    height: 250px;
+}
+
+.links {
+    float: right;
+    padding-right: 50px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px;
+}
+
+button {
+    transition: .2s;
+    text-align: center;
+    background-color: white;
+    color: red;
+    border-color: red;
+    border-style: double;
+    border-width: thick;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Football {
+    font-family: 'Berkshire Swash';
+}
+
+#br{
+    height: 25px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
